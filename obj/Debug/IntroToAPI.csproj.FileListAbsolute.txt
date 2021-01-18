@@ -1,0 +1,12 @@
+C:\ElevenFiftyProjects\Blue\NotesForBlueBadge\bin\Debug\NotesForBlueBadge.exe.config
+C:\ElevenFiftyProjects\Blue\NotesForBlueBadge\bin\Debug\NotesForBlueBadge.exe
+C:\ElevenFiftyProjects\Blue\NotesForBlueBadge\bin\Debug\NotesForBlueBadge.pdb
+C:\ElevenFiftyProjects\Blue\NotesForBlueBadge\obj\Debug\IntroToAPI.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\Blue\NotesForBlueBadge\obj\Debug\IntroToAPI.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\Blue\NotesForBlueBadge\obj\Debug\NotesForBlueBadge.exe
+C:\ElevenFiftyProjects\Blue\NotesForBlueBadge\obj\Debug\NotesForBlueBadge.pdb
+C:\ElevenFiftyProjects\Blue\NotesForBlueBadge\bin\Debug\Newtonsoft.Json.dll
+C:\ElevenFiftyProjects\Blue\NotesForBlueBadge\bin\Debug\Newtonsoft.Json.xml
+C:\ElevenFiftyProjects\Blue\NotesForBlueBadge\obj\Debug\IntroToAPI.csproj.CopyComplete
+C:\ElevenFiftyProjects\Blue\NotesForBlueBadge\bin\Debug\System.Net.Http.Formatting.dll
+C:\ElevenFiftyProjects\Blue\NotesForBlueBadge\bin\Debug\System.Net.Http.Formatting.xml

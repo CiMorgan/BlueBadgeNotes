@@ -46,6 +46,25 @@ namespace IntroToAPI
                     Console.WriteLine(vehicle.Name);
                 }
             }
+            Console.WriteLine();
+            //var genericResponse = service.GetAsync<Vehicle>("https://swapi.dev/api/vehicles/4/").Result;
+            var genericResponse = service.GetAsync<Person>("https://swapi.dev/api/people/4/").Result;
+            if (genericResponse != null)
+            {
+                Console.WriteLine(genericResponse.Name);
+            }
+            else
+            {
+                Console.WriteLine("Targeted object does not exist.");
+            }
+            Console.WriteLine();
+            SearchResult<Person> skywalkers = service.GetPersonSearchAsync("skywalker").Result;
+            foreach (Person p in skywalkers.Results)
+            {
+                Console.WriteLine(p.Name);
+            }
+            var genericSearch = service.GetSearchAsync<Vehicle>("speeder", "vehicles").Result;
+            var vehicleSearch = service.GetVehicleSearchAsync("speeder").Result;
         }
     }
 }

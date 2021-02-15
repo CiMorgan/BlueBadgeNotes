@@ -21,7 +21,7 @@ namespace IntroToAPI
                 //var content = response.Content.ReadAsStringAsync().Result;  //read as string first
                 //var person = JsonConvert.DeserializeObject<Person>(content);  //and then convert to object
 
-                Person luke = response.Content.ReadAsAsync<Person>().Result;  //yield the object of the specified type automatically (1 step process)
+                Person luke = response.Content.ReadAsAsync<Person>().Result;  //yield the object of the specified type automatically (1 step process using MS AspNet.WebApi.Client)
                 Console.WriteLine(luke.Name);
 
                 foreach (string vehicleUrl in luke.Vehicles)

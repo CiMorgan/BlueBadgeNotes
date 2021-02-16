@@ -64,7 +64,16 @@ namespace IntroToAPI
                 Console.WriteLine(p.Name);
             }
             var genericSearch = service.GetSearchAsync<Vehicle>("speeder", "vehicles").Result;
+            foreach (Vehicle v in genericSearch.Results)
+            {
+                Console.WriteLine(v.Name);
+            }
+            Console.WriteLine();
             var vehicleSearch = service.GetVehicleSearchAsync("speeder").Result;
+            foreach (Vehicle t in vehicleSearch.Results)
+            {
+                Console.WriteLine(t.Name);
+            }
         }
     }
 }

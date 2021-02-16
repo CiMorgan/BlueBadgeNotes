@@ -41,10 +41,10 @@ namespace IntroToAPI
 
             if (response.IsSuccessStatusCode)
             {
-                T content = await response.Content.ReadAsAsync<T>();
+                T content = await response.Content.ReadAsAsync<T>();   //can use await since task is async
                 return content;
             }
-            return null;  //return default if nonnullable is possible
+            return null;  //return default if nonnullable is possible (an int is non-nullable)
         }
         public async Task<SearchResult<Person>> GetPersonSearchAsync(string query)
         {

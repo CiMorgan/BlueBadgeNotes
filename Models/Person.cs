@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace IntroToAPI.Models
 {
-    class Person
+    class Person  //used online JSON to C# converter
     {
         [JsonProperty("name")]
         public string Name { get; set; }
